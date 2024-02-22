@@ -7,7 +7,7 @@ class AgedBrieShopItem extends BaseShopItem {
   }
 
   getQualityChangeAmount(): number {
-    let amountToChange = this.sellIn < 0 ? -2 * Default_Rot_Speed : -Default_Rot_Speed
+    let amountToChange = this.sellIn <= 0 ? -2 * Default_Rot_Speed : -Default_Rot_Speed
 
     if (this.quality + amountToChange > Default_MAX_Quality) {
       amountToChange = Default_MAX_Quality - this.quality;

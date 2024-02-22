@@ -25,7 +25,6 @@ const shopFacotry = (item: Item) => {
       //value 'Unknown' create instance for base item
       return new BaseShopItem(item)
   }
-  return null;
 }
 
 export default shopFacotry;
