@@ -6,7 +6,7 @@ class BackstagePassToTAFKAL80ETC extends BaseShopItem {
     super(item)
   }
 
-  getQualityChangeAmount() {
+  getQualityChangeAmount(): number {
     let amountToChange = 0
 
     if (this.sellIn <= 0) {

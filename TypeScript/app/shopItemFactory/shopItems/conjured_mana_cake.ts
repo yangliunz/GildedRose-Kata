@@ -6,7 +6,7 @@ class ConjuredManaCadeShopItem extends BaseShopItem {
     super(item)
   }
 
-  getQualityChangeAmount() {
+  getQualityChangeAmount(): number {
     let amountToChange = 2 * Default_Rot_Speed
 
     if (this.quality + amountToChange > Default_MAX_Quality) {
