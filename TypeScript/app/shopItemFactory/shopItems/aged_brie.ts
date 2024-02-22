@@ -1,4 +1,4 @@
-import { Default_MAX_Quality, Default_MIN_Quality, Default_Rot_Speed, Item, ShopItem } from "@/constants";
+import { Default_MAX_Quality, Default_MIN_Quality, Default_Rot_Speed, Item, ShopItem } from "../../constants";
 import BaseShopItem from "./base";
 
 class AgedBrieShopItem extends BaseShopItem {
